@@ -1,0 +1,109 @@
+/* Agar container sampai full kanan kiri */
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+/* Untuk modifikasi body */
+body{    /*Panggil body pada Html file*/
+    background-color: rgba(255, 255, 255, 0.63);
+}
+
+/* Untuk modifikasi div */
+/*div{
+    background-color: cyan; /* Semua element pada div akan berwana cyan */
+    /* Untuk memodifikasi salah satu element maka, tambahkan class pada div */
+/*}*/
+
+/* Untuk memodifikasi element tertentu */
+.container-navbar {
+    background-color: black;
+    width: 100%;
+    height: 15vh;
+}
+.ul-navbar {
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.li-navbar {
+    /* border: 1px solid white ; */
+    /* background-color: #111; */
+    list-style-type: none; /*Menghilangkan tanda list di belakang*/
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+.li-navbar:hover{
+    background-color: brown; /*membuat box ketika di klik memiliki warna*/
+    /* transition: .5s ease-in-out; */
+    /* transition-delay: .01s; */
+    border-radius: 5px;
+}
+.a-navbar {
+    color: white; /**membuat warna tetap putih*/
+    text-decoration: none; /*menghilangkan garis dibawah*/
+}
+
+
+.container-content {
+    background-color:burlywood;
+    display: flex;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content:center;
+    align-items: center;
+    height: 70vh;
+}
+.img-content {
+    width: 50%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 180px;
+    box-shadow: 10px 14px 21px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 14px 21px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 14px 21px 3px rgba(0,0,0,0.75);
+}
+.a-content {
+    background-color: white;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 180px;
+    box-shadow: 10px 14px 21px 3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 14px 21px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 14px 21px 3px rgba(0,0,0,0.75);
+}
+
+.container-footer {
+    background-color: cadetblue;
+    height: 12vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.h1-footer {
+    font-style:inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h4-footer {
+    font-style: unset;
+    display: flex;
+    padding-top: 2vh;
+    justify-content: center;
+    align-items: center;
+}
